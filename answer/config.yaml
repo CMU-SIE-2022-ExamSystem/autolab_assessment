@@ -1,0 +1,28 @@
+general:
+ name: "test_quiz"
+ fullscore: 100
+
+Q1:
+ type: "Multiple_choices"
+ score: 25
+ sub1: 5
+ sub2: 5
+ sub3: 10
+ sub4: 5
+
+Q2:
+ type: "Single_choice"
+ score: 25
+ sub1: 25
+
+Q3:
+ type: "Multiple_blanks"
+ score: 25
+ sub1: 10
+ sub2: 5
+ sub3: 20
+
+Q4:
+ type: "Single_blank"
+ score: 25
+ sub1: 25
