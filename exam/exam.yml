@@ -14,21 +14,41 @@ general:
   has_svn: false
   category_name: Exam
 problems:
-- name: Q1
+- name: Q1_sub1
   description: ''
-  max_score: 25.0
+  max_score: 5
   optional: false
-- name: Q2
+- name: Q1_sub2
   description: ''
-  max_score: 25.0
+  max_score: 5
   optional: false
-- name: Q3
+- name: Q1_sub3
   description: ''
-  max_score: 25.0
+  max_score: 10
   optional: false
-- name: Q4
+- name: Q1_sub3
   description: ''
-  max_score: 25.0
+  max_score: 5
+  optional: false
+- name: Q2_sub1
+  description: ''
+  max_score: 25
+  optional: false
+- name: Q3_sub1
+  description: ''
+  max_score: 10
+  optional: false
+- name: Q3_sub2
+  description: ''
+  max_score: 5
+  optional: false
+- name: Q3_sub3
+  description: ''
+  max_score: 20
+  optional: false
+- name: Q4_sub1
+  description: ''
+  max_score: 25
   optional: false
 autograder:
   autograde_timeout: 180
