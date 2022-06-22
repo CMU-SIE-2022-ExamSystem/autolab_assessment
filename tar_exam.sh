@@ -3,9 +3,9 @@
 
 cd exam
 
-tar -czf autograde.tar exam
+tar cvf autograde.tar autograder
 
 cd ..
 
 # make tar
-tar -czf exam.tar exam
+tar cvf exam.tar exam

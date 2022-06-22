@@ -1,8 +1,8 @@
 ---
 general:
-  name: finalexam
+  name: exam
   description: ''
-  display_name: Final Exam
+  display_name: exam
   handin_filename: handin.tar
   handin_directory: handin
   max_grace_days: 0
@@ -14,19 +14,19 @@ general:
   has_svn: false
   category_name: Exam
 problems:
-- name: A
+- name: Q1
   description: ''
   max_score: 25.0
   optional: false
-- name: B
+- name: Q2
   description: ''
   max_score: 25.0
   optional: false
-- name: C
+- name: Q3
   description: ''
   max_score: 25.0
   optional: false
-- name: D
+- name: Q4
   description: ''
   max_score: 25.0
   optional: false

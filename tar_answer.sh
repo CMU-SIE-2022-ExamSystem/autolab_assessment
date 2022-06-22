@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # make tar
-tar -czf answer.tar answer
+tar cvf answer.tar answer

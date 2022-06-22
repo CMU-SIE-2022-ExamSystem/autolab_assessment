@@ -1,10 +1,10 @@
 require "AssessmentBase.rb"
 
-module Hello
+module Exam
   include AssessmentBase
 
   def assessmentInitialize(course)
-    super("finalexam",course)
+    super("exam",course)
     @problems = []
   end
 
