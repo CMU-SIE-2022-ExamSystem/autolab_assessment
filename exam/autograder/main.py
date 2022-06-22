@@ -56,9 +56,9 @@ for key in sul_data.keys():
     tmp_Q = {}
     for sub_key in sul_data[key]:
         if compare_str(sul_data[key][sub_key],ans_data[key][sub_key]):
-            tmp_sub = {sub_key: configuration[key][sub_key]}
+            tmp_sub = {key + "_" + sub_key: configuration[key][sub_key]}
         else:
-            tmp_sub = {sub_key: 0}
+            tmp_sub = {key + "_" + sub_key: 0}
         score_result.update(tmp_sub)
         
         # tmp_Q.update(tmp_sub)
