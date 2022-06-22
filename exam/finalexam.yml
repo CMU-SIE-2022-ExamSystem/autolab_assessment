@@ -1,0 +1,36 @@
+---
+general:
+  name: finalexam
+  description: ''
+  display_name: Final Exam
+  handin_filename: handin.tar
+  handin_directory: handin
+  max_grace_days: 0
+  handout: ''
+  writeup: writeup/exam.html
+  max_submissions: 1
+  disable_handins: false
+  max_size: 2
+  has_svn: false
+  category_name: Exam
+problems:
+- name: A
+  description: ''
+  max_score: 25.0
+  optional: false
+- name: B
+  description: ''
+  max_score: 25.0
+  optional: false
+- name: C
+  description: ''
+  max_score: 25.0
+  optional: false
+- name: D
+  description: ''
+  max_score: 25.0
+  optional: false
+autograder:
+  autograde_timeout: 180
+  autograde_image: autograding_image
+  release_score: true

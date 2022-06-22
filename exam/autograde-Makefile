@@ -1,0 +1,10 @@
+all:
+	tar xvf autograde.tar
+	tar xvf handin.tar
+	cp solution.json exam
+	cp answer.json exam
+	cp config.yaml exam
+	(cd autograde/project; pip3 install -r requirements.txt; python3.8 driver.py)
+
+clean:
+	rm -rf *~ lab01-autograde

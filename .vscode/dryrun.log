@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mhkuo/Code/summer/autolab_assessment'
+# Rebuild the handout directory that students download
+(rm -rf autolab_assessment-handout; mkdir autolab_assessment-handout)
+cp -p src/Makefile-handout autolab_assessment-handout/Makefile
+cp -p src/README-handout autolab_assessment-handout/README
+cp -p src/hello.c-handout autolab_assessment-handout/hello.c 
+cp -p src/driver.sh autolab_assessment-handout
+# Build *-handout.tar and autograde.tar
+tar cvf autolab_assessment-handout.tar autolab_assessment-handout
+cp -p autolab_assessment-handout.tar autograde.tar
+make: Leaving directory `/Users/mhkuo/Code/summer/autolab_assessment'
+ 
