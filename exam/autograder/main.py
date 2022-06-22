@@ -59,9 +59,10 @@ for key in sul_data.keys():
             tmp_sub = {sub_key: configuration[key][sub_key]}
         else:
             tmp_sub = {sub_key: 0}
+        score_result.update(tmp_sub)
         
-        tmp_Q.update(tmp_sub)
-    score_result.update({key:tmp_Q})
+        # tmp_Q.update(tmp_sub)
+    # score_result.update({key:tmp_Q})
 
 js = json.dumps({"scores": score_result})
 print(js)
