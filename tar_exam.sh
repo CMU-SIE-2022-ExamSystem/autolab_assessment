@@ -1,11 +1,11 @@
 #!/bin/bash
 
 
-cd exam
+cd midterm1
 
 tar cvf autograde.tar autograder
 
 cd ..
 
 # make tar
-tar cvf exam.tar exam
+tar cvf midterm1.tar midterm1

@@ -1,8 +1,8 @@
 ---
 general:
-  name: exam
+  name: midterm1
   description: ''
-  display_name: exam
+  display_name: Midterm_1
   handin_filename: handin.tar
   handin_directory: handin
   max_grace_days: 0
@@ -15,8 +15,8 @@ general:
   category_name: Exam
   start_at: 2022-06-15 14:13
   due_at: 2023-06-15 14:13
-  end_at: 2023-06-15 14:13
-  grading_deadline: 2023-06-15 14:13
+  end_at: 2023-06-30 14:13
+  grading_deadline: 2023-06-30 14:13
 settings:
 - id: 1
   tag: Integer
@@ -26,7 +26,7 @@ settings:
   number: 4
 problems:
 - name: Q1_sub1
-  type: multiple_blank
+  # type: multiple-blank
   description:
   - name: Q1_sub1_sub1
     answer: 1
@@ -40,7 +40,7 @@ problems:
   max_score: 3
   optional: false
 - name: Q1_sub2
-  type: multiple_blank
+  # type: multiple-blank
   description:
   - name: Q1_sub2_sub1
     answer: true
@@ -54,7 +54,7 @@ problems:
   max_score: 2
   optional: false
 - name: Q1_sub3
-  type: multiple_choice
+  # type: multiple-choice
   description:
   - name: Q1_sub3
     answer: 10011
@@ -62,7 +62,7 @@ problems:
   max_score: 3
   optional: false
 - name: Q1_sub4
-  type: single_blank
+  # type: single-blank
   description:
   - name: Q1_sub4
     answer: 19
@@ -70,7 +70,7 @@ problems:
   max_score: 3
   optional: false
 - name: Q1_sub5
-  type: single_blank
+  # type: single-blank
   description:
   - name: Q1_sub5
     answer: 00000
@@ -78,7 +78,7 @@ problems:
   max_score: 3
   optional: false
 - name: Q1_sub6
-  type: single_blank
+  # type: single-blank
   description:
   - name: Q1_sub6
     answer: -16
@@ -86,7 +86,7 @@ problems:
   max_score: 3
   optional: false
 - name: Q1_sub7
-  type: single_blank
+  # type: single-blank
   description:
   - name: Q1_sub7
     answer: 01111
@@ -94,7 +94,7 @@ problems:
   max_score: 3
   optional: false
 - name: Q1_sub8
-  type: single_blank
+  # type: single-blank
   description:
   - name: Q1_sub8
     answer: -15
@@ -102,7 +102,7 @@ problems:
   max_score: 3
   optional: false
 - name: Q1_sub9
-  type: single_choice
+  # type: single-choice
   description:
   - name: Q1_sub9
     answer: 00000
@@ -110,7 +110,7 @@ problems:
   max_score: 3
   optional: false
 - name: Q1_sub10
-  type: single_blank
+  # type: single-blank
   description:
   - name: Q1_sub10
     answer: -1
@@ -118,7 +118,7 @@ problems:
   max_score: 3
   optional: false
 - name: Q2_sub1
-  type: multiple_blank
+  # type: multiple-blank
   description:
   - name: Q2_sub1_sub1
     answer: 2
@@ -132,7 +132,7 @@ problems:
   max_score: 3
   optional: false
 - name: Q2_sub2
-  type: multiple_blank
+  # type: multiple-blank
   description:
   - name: Q2_sub2_sub1
     answer: true
@@ -149,7 +149,7 @@ problems:
   max_score: 2
   optional: false
 - name: Q2_sub3
-  type: single_choice
+  # type: single-choice
   description:
   - name: Q2_sub3
     answer: 10011
@@ -157,7 +157,7 @@ problems:
   max_score: 3
   optional: false
 - name: Q2_sub4
-  type: multiple_choice
+  # type: multiple-choice
   description:
   - name: Q2_sub4
     answer: 19
