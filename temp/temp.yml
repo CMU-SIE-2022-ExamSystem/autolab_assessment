@@ -1,8 +1,8 @@
 ---
 general:
-  name: midterm1
+  name: temp
   description: ''
-  display_name: Midterm_1
+  display_name: temp
   handin_filename: handin.tar
   handin_directory: handin
   max_grace_days: 0
