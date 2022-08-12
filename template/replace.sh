@@ -19,5 +19,6 @@ val=`echo ${1:0:1} | tr  '[a-z]' '[A-Z]'`${1:1}
 sed -i'' -e "s/Temp/$val/g" $1.rb
 sed -i'' -e "s/temp/$1/g" $1.rb
 
-# make autograde tar
-tar cvf $SCRIPT_DIR/$1/autograde.tar autograder
+# replace writeup url
+sed -i'' -e "s/url/$2/g" ./writeup/exam.html
+
